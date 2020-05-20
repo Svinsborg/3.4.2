@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Приложение</string>
+
+<string-array name="language">
+    <item>Русский</item>
+    <item>Английский</item>
+    <item>Немецкий</item>
+</string-array>
+
+<string name="text">Этот текст на русском языке</string>
+
+    <string name="butOk">Изменить</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Application</string>
+
+    <string-array name="language">
+        <item>Russian</item>
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+
+    <string name="text">This English text</string>
+
+    <string name="butOk">Confirm</string>
+
+</resources>
