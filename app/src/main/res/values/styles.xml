@@ -10,7 +10,7 @@
 
     <style name="AppTheme.Small">
         <!-- Customize your theme here. -->
-        <item name="android:layout_margin">1dp</item>
+        <item name="android:layout_margin">3dp</item>
     </style>
 
     <style name="AppTheme.Medium">
