@@ -22,10 +22,31 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:scrollbarSize="10dp"
         android:padding="10dp"
+        android:scrollbarSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinTheme"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scrollbarSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinMarg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinMarg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scrollbarSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"

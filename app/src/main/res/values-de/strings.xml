@@ -6,6 +6,19 @@
         <item>Deutsche</item>
     </string-array>
 
+    <string-array name="theme">
+        <item>Default</item>
+        <item>Grün</item>
+        <item>Dunkel</item>
+        <item>Blau</item>
+    </string-array>
+
+    <string-array name="margin">
+        <item>klein</item>
+        <item>Mittel</item>
+        <item>groß</item>
+    </string-array>
+
     <string name="text">Dieser Text ist in deutscher Sprache</string>
 
     <string name="butOk">Bewerben</string>

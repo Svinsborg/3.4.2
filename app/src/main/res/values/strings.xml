@@ -7,7 +7,22 @@
     <item>Немецкий</item>
 </string-array>
 
-<string name="text">Этот текст на русском языке</string>
+    <string-array name="theme">
+        <item>По умолчанию</item>
+        <item>Зеленая</item>
+        <item>Темная</item>
+        <item>Голубая</item>
+    </string-array>
+
+    <string-array name="margin">
+        <item>маленькие</item>
+        <item>средние</item>
+        <item>большие</item>
+    </string-array>
+
+    <string name="text">Этот текст на русском языке</string>
 
     <string name="butOk">Изменить</string>
+
+
 </resources>

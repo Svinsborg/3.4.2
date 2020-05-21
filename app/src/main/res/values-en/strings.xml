@@ -7,6 +7,19 @@
         <item>German</item>
     </string-array>
 
+    <string-array name="theme">
+        <item>Default</item>
+        <item>Green</item>
+        <item>Dark</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="margin">
+        <item>small</item>
+        <item>medium</item>
+        <item>big</item>
+    </string-array>
+
     <string name="text">This English text</string>
 
     <string name="butOk">Confirm</string>
