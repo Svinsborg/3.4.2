@@ -24,16 +24,6 @@
         android:layout_height="50dp"
         android:padding="10dp"
         android:scrollbarSize="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/spinTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Spinner
-        android:id="@+id/spinTheme"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:scrollbarSize="10dp"
         app:layout_constraintBottom_toTopOf="@+id/spinMarg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

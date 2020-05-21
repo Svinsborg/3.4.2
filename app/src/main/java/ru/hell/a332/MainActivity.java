@@ -38,57 +38,32 @@ public class MainActivity extends AppCompatActivity {
 
         select.setAdapter(arrCh);
 
-        ArrayAdapter<?> arrTh = ArrayAdapter.createFromResource( this, R.array.theme, android.R.layout.simple_spinner_item);
-        arrTh.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-        chTheme.setAdapter(arrTh);
 
         ArrayAdapter<?> arrMg = ArrayAdapter.createFromResource( this, R.array.margin, android.R.layout.simple_spinner_item);
-        arrTh.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        arrMg.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         chMarg.setAdapter(arrMg);
-
-
 
 
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                set = chTheme.getSelectedItemPosition();
-                switch (set) {
-                    case 0:
-                        currentThemeRes = R.style.AppTheme;
-                        break;
-                    case 1:
-                        currentThemeRes = R.style.AppTheme_Green;
-                        break;
-                    case 2:
-                        currentThemeRes =  R.style.AppTheme_Dark;
-                        break;
-                    case 3:
-                        currentThemeRes = R.style.AppTheme_Blue;
-                        break;
-                    default:
-                        break;
-                }
-
                 mrg = chMarg.getSelectedItemPosition();
                 switch (mrg) {
                     case 0:
-                        text.setCompoundDrawablePadding(0);
+                        currentThemeRes = R.style.AppTheme_Small;
                         break;
                     case 1:
-                        text.setCompoundDrawablePadding(5);
+                        currentThemeRes =  R.style.AppTheme_Medium;
                         break;
                     case 2:
-                        text.setCompoundDrawablePadding(10);
+                        currentThemeRes = R.style.AppTheme_Big;
                         break;
                     default:
                         break;
                 }
-
-
 
                 param = select.getSelectedItem().toString();
                 if(param.equals("Russisch") || param.equals("Russian") || param.equals("Русский")){
@@ -110,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         chMarg = findViewById(R.id.spinMarg);
-        chTheme = findViewById(R.id.spinTheme);
+       /* chTheme = findViewById(R.id.spinTheme);*/
         image = findViewById(R.id.imageFlag);
         select = findViewById(R.id.spinner);
         ok = findViewById(R.id.button);
